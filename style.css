@@ -10,6 +10,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 #button{
     display: flex;
@@ -39,4 +40,16 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: white;
+}
+#buttonContainer{
+    display: flex;
+}
+.button{
+    width: 100px;
+    height: 33px;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(248, 205, 96);
+    border: 0ch;
+    margin: 10px;
 }
